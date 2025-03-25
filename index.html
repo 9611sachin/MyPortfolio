@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/skillsStyle.css" />
     <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/Project.css" />
+    <link rel="stylesheet" href="css/ContactForm.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -48,7 +50,7 @@
         <div class="logo">My Portfolio</div>
         <ul class="nav-links">
           <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#aboutme">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -89,7 +91,58 @@
       </div>
     </section>
 
-    <section class="about-me">
+    
+
+    <!-- <section id="projects" class="content-section">
+      <h2>My Projects</h2>
+      <p>My project details.</p>
+    </section> -->
+    <section class="MyprojectHeading">
+      <h2>My Projects</h2>
+    </section>
+
+    <section id="projects" class="project-details">
+      <div class="container-project">
+        <h3 class="project-number">Project 1</h3>
+        <h1 class="project-name">Unified Ordered Platform</h1>
+        <p class="project-description">
+          The Unified Ordered Platform is a scalable solution designed to
+          integrate multiple systems for order management, processing, and
+          tracking in real-time. It utilizes microservices architecture to allow
+          independent services to work together cohesively for better
+          performance and flexibility.
+        </p>
+
+        
+        </div>
+      </div>
+
+      <div class="container-project">
+        <h3 class="project-number">Project 2</h3>
+        <h1 class="project-name">Unified Ordered Platform</h1>
+        <p class="project-description">
+          The Unified Ordered Platform is a scalable solution designed to
+          integrate multiple systems for order management, processing, and
+          tracking in real-time. It utilizes microservices architecture to allow
+          independent services to work together cohesively for better
+          performance and flexibility.
+        </p>
+      </div>
+
+      <div class="container-project">
+        <h3 class="project-number">Project 3</h3>
+        <h1 class="project-name">Unified Ordered Platform</h1>
+        <p class="project-description">
+          The Unified Ordered Platform is a scalable solution designed to
+          integrate multiple systems for order management, processing, and
+          tracking in real-time. It utilizes microservices architecture to allow
+          independent services to work together cohesively for better
+          performance and flexibility.
+        </p>
+      </div>
+    </section>
+
+    <section id="aboutme" class="about-me">
       <div class="container">
         <h2>About Me</h2>
         <p>
@@ -158,16 +211,30 @@
         </div>
       </div>
     </section>
-
-    <section id="projects" class="content-section">
-      <h2>My Projects</h2>
-      <p>My project details.</p>
+    
+    <section id="contact" class="contact-section">
+      <div class="contact-container">
+        <div class="contact-form-container">
+          <h2>Contact Me</h2>
+          <p class="contact-description">Feel free to reach out for collaborations, questions, or just to say hello!</p>
+          <form action="submit_form.php" method="post" class="contact-form">
+            <div class="form-group">
+              <label for="useremail">Email:</label>
+              <input type="email" id="useremail" name="useremail" required>
+            </div>
+            <div class="form-group">
+              <label for="description">Message:</label>
+              <textarea id="description" name="description" required></textarea>
+            </div>
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+        </div>
+        <div class="resume-view-container">
+          <button class="resume-button">View Resume</button>
+        </div>
+      </div>
     </section>
-
-    <section id="contact" class="content-section">
-      <h2>Contact Me</h2>
-      <p>Contact information.</p>
-    </section>
+      
 
     <script src="script.js"></script>
   </body>

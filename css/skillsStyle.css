@@ -1,22 +1,13 @@
 .about-me {
-  background: #005aa7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #fffde4,
-    #005aa7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #fffde4,
-    #005aa7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #005aa7;
+  background: -webkit-linear-gradient(to right, #fffde4, #005aa7);
+  background: linear-gradient(to right, #fffde4, #005aa7);
 }
 
 .about-me .container {
   margin: 0 auto;
   padding: 0 30px;
   position: relative;
-  padding-bottom: 30px;
 }
 
 .skill-item p {
@@ -29,7 +20,7 @@
 }
 
 .about-me h2 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #121212;
@@ -66,7 +57,7 @@
 .about-me .skill-item:hover {
   color: #000000;
   transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box-shadow on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .about-me .skill-item h3 {

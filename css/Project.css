@@ -1,0 +1,79 @@
+.MyprojectHeading {
+  display: flex;
+  justify-content: center;
+  font-family: "Lobster", sans-serif;
+  margin: 0 0 0 0;
+}
+
+.MyprojectHeading h2 {
+  margin-top: 10px;
+  font-size: 2.2rem;
+  color: #121212;
+}
+
+.project-details {
+  margin-top: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 20px;
+}
+
+.container-project {
+  flex: 1;
+  margin-top: 0;
+  margin: 10px 10px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #b4e9e7;
+}
+
+.MyprojectHeading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -10px 0px;
+}
+
+.project-number {
+  font-size: 1em;
+  color: #0c0707;
+  margin-top: -5px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.project-name {
+  color: #fc0b0b;
+  font-family: "Noto Sans", sans-serif;
+}
+.project-description {
+  font-family: "Noto Sans", sans-serif;
+  color: #666;
+}
+/* .tech-stack {
+  font-family: "Timmana", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+} */
+
+/* .tech-item {
+  flex: 1 1 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tech-logo {
+  max-width: 25%;
+  height: auto;
+} */
+
+/* .logs {
+  width: 100px;
+  height: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  overflow-y: auto;
+} */

@@ -1,116 +1,116 @@
-<section class="about-me">
-  <div class="container">
-    <h2>About Me</h2>
-    <p>
-      A seasoned Java Full Stack Developer with 2+ years of experience, I excel in the full software development lifecycle, specializing in Java technologies like Spring Boot, Hibernate, and RESTful APIs, alongside modern front-end frameworks (React/Angular), to build robust, maintainable, and business-focused enterprise web applications.
-    </p>
-    <div class="skills">
-      <div class="skill-item">
-        <h3>Full Stack Expertise</h3>
-        <p>Proficient in designing, developing, and deploying enterprise-level web applications.</p>
-      </div>
-      <div class="skill-item">
-        <h3>Java Specialization</h3>
-        <p>Extensive experience with Spring Boot, Hibernate, and RESTful APIs for scalable back-end solutions.</p>
-      </div>
-      <div class="skill-item">
-        <h3>Modern Front-End Skills</h3>
-        <p>Skilled in utilizing React or Angular for creating engaging user interfaces.</p>
-      </div>
-      <div class="skill-item">
-        <h3>End-to-End Development</h3>
-        <p>Expertise spanning the entire software development lifecycle, from UI design to database management.</p>
-      </div>
-      <div class="skill-item">
-        <h3>Code Quality Focus</h3>
-        <p>Passionate about writing clean, maintainable, and efficient code.</p>
-      </div>
-      <div class="skill-item">
-        <h3>Business-Driven Solutions</h3>
-        <p>Committed to delivering high-quality solutions that directly address business needs.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-
-.about-me {
-  background-color: #f4f4f4;
-  padding: 80px 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.contact-container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.about-me .container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 20px;
+.contact-form-container {
+  flex: 1;
+  margin-right: 20px;
 }
 
-.about-me h2 {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  color: #333;
-  text-align: center;
+.resume-view-container {
+  display: flex;
+  align-items: center;
 }
 
-.about-me p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  color: #555;
-  margin-bottom: 40px;
-  text-align: center;
+.resume-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.about-me .skills {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 30px;
+.resume-button:hover {
+  background-color: #0056b3;
 }
 
-.about-me .skill-item {
-  background-color: #fff;
-  padding: 30px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+h2 {
+  font-family: "Lobster", sans-serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #5d0ecb;
 }
 
-.about-me .skill-item:hover {
-  transform: translateY(-5px);
-}
-
-.about-me .skill-item h3 {
-  font-size: 1.3rem;
-  margin-bottom: 15px;
-  color: #333;
-}
-
-.about-me .skill-item p {
+.contact-description {
   font-size: 1rem;
+  color: #38d415;
+  margin-bottom: 1.5rem;
   line-height: 1.6;
-  color: #666;
 }
 
-/* Responsive adjustments */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-family: "Lobster", sans-serif;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #34495e;
+}
+
+input[type="email"],
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #1993e4;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #1993e4;
+  border-width: 2px;
+  outline: none;
+}
+
+textarea {
+  height: 50px;
+}
+
+.submit-button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-weight: 600;
+}
+
+.submit-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
+
 @media (max-width: 768px) {
-  .about-me h2 {
-    font-size: 2rem;
+  .contact-section {
+    padding: 1.5rem;
+    margin: 1rem auto;
   }
-  .about-me p {
-    font-size: 1rem;
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-description {
+    font-size: 0.9rem;
   }
 }
-
-
-I'm Aayush Bharti, a proactive full-stack developer passionate about creating dynamic web experiences. From frontend to backend, I thrive on solving complex problems with clean, efficient code. My expertise spans React, Next.js, and Node.js, and I'm always eager to learn more.
-
-When I'm not coding, I'm exploring new ideas and staying curious. Life's about balance, and I love embracing every part of it.
-
-I believe in waking up each day eager to make a difference!
-
-LinkedIn
-GitHub
-Twitter
-Bluesky
