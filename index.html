@@ -230,12 +230,16 @@
           </form>
         </div>
         <div class="resume-view-container">
-          <button class="resume-button">View Resume</button>
+          <button class="resume-button" onclick="viewResume()">View Resume</button>
         </div>
       </div>
     </section>
       
 
-    <script src="script.js"></script>
+    <script>
+    function viewResume() {
+      window.open('assets/SachinResume.pdf', '_blank');
+    }
+    </script>
   </body>
 </html>
