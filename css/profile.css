@@ -1,0 +1,118 @@
+.content-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-container {
+  flex: 3; /* Take up 50% of the container */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding: 20px;
+}
+
+.content-section h1 {
+  font-family: "Lobster", sans-serif;
+  overflow: hidden; /* Ensures the text is hidden until animated */
+  white-space: nowrap; /* Prevents the text from wrapping */
+  margin: left; /* Centers the text */
+  letter-spacing: 0.15em; /* Adjusts the spacing between letters */
+  animation: typewriter 4s steps(40, end);
+  color: #f74b00;
+}
+
+.profile-picture {
+  flex: 1; /* Take up 50% of the container */
+  max-width: 50%;
+  padding: 30px;
+}
+
+.profile-picture img {
+  width: 100%; /* Make the image fill the container */
+  height: auto;
+  border-radius: 10%; /* Optional: Add rounded corners */
+  object-fit: cover; /* Ensure the image covers the area, cropping if necessary */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.name {
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #121212;
+  font-family: "Aclonica", sans-serif;
+}
+
+.title,
+.specialization,
+.company {
+  font-family: "Tilt Neon", sans-serif;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.emoji {
+  margin-right: 8px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+.social-button {
+  background-color: #2e2e2e; /* Darker button background */
+  color: #e0e0e0;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-button:hover {
+  color: #5407ed;
+  transform: translateY(2px);
+  box-shadow: 0 8px 16px rgba(50, 50, 50, 0.2);
+}
+
+/* Specific button styles */
+.github {
+  background-color: #333; /* Darker for GitHub */
+}
+
+.linkedin {
+  background-color: #0077b5; /* LinkedIn blue */
+}
+
+.email {
+  background-color: #d44638; /* Email red */
+}
+
+/* Keyframes for animation */
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(216, 57, 57);
+  }
+}

@@ -1,0 +1,82 @@
+.about-me {
+  background: #005aa7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffde4,
+    #005aa7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffde4,
+    #005aa7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about-me .container {
+  margin: 0 auto;
+  padding: 0 30px;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.skill-item p {
+  font-family: "Timmana", sans-serif;
+  color: aqua;
+}
+
+.skill-item h3 {
+  font-family: "Lobster", sans-serif;
+}
+
+.about-me h2 {
+  font-size: 2.5rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #121212;
+  text-align: center;
+  font-family: "Lobster", sans-serif;
+}
+.about-me p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #0e0c0cdf;
+  margin-bottom: 40px;
+  text-align: left;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.about-me .skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.about-me .skill-item {
+  background-color: #b4e9e7;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 10px 25px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.about-me .skill-item:hover {
+  color: #000000;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increased box-shadow on hover */
+}
+
+.about-me .skill-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #fc0b0b;
+}
+
+.about-me .skill-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
